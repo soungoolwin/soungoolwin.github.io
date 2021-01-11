@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.row1 {
+    background-color: red;
+}
+.row1 h2 {
+    color: #00FC54;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.row2 {
+    background-image: url(images/pagoda.jfif);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -8px;
+}
+.row {
+    text-align: center;
+}
+.row2 .row button {
+    background-color: transparent;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border: 0.5px solid black;
+    margin-top: 50px;
+    transition: 1s;
+}
+.row2 .row a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.row2 .row button:hover {
+    background-color: #ddd;
+    transform: translateY(8px);
+}
+
+.row3 {
+    background-image: url(images/bridge.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+.row4 {
+    background-color: #2CB7CD;
+    width: 100%;
+    height: auto;
+}
+.info {
+    background-color: black;
+    width: 50%;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
